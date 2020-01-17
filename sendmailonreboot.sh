@@ -8,10 +8,10 @@
 
 sleep 60
 # Global variables
-noipDnsName="fiftysixflex.ddns.net"
+noipDnsName="targethost"
 ip=`hostname -I`
 lhost=`hostname -f`
-recipient="aliefamzari@gmail.com"
+recipient="targetrecipient"
 tmpPath="/tmp"
 ddns=$(dig +short $noipDnsName)
 uptimeSince=`uptime -s`
