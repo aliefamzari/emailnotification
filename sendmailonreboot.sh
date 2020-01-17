@@ -1,7 +1,8 @@
 #!/bin/bash
-# On the event of init 6, email will be send to notify the reboot event
+# In the event of power failure, script will send email to target recipient
 # Author : Alif Amzari Mohd Azamee
 # Version control : Git
+# Job retention: @reboot crontab 
 # License: MIT
 
 
